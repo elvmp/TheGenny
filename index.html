@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://cdn.zipy.ai/sdk/v1.0/zipy.min.umd.js" crossorigin="anonymous"></script> <script> window.zipy && window.zipy.init('a0f8949b');</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place Information</title>
+</head>
+<body>
+    <h1>Place Information Generator</h1>
+    <form id="placeForm">
+        <label for="placeName">Enter a place name:</label>
+        <input type="text" id="placeName" name="placeName" required>
+        <button type="submit">Generate Info</button>
+    </form>
+    <div id="results">
+        <h2>Results:</h2>
+        <p>Name of the President: <span id="presidentInfo"></span></p>
+        <p>Crime Rate: <span id="crimeRateInfo"></span></p>
+        <p>Drug Usage Rate: <span id="drugUsageInfo"></span></p>
+        <a id="downloadLink" style="display: none" download="place_info.pdf">Download PDF</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+# Ignore node_modules (dependency directory)
+node_modules/
+
+# Ignore build artifacts
+build/
+dist/
+.DS_Store
+
+# Environment files (e.g., .env) should not be committed
+.env
